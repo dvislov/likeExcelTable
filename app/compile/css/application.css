@@ -1,24 +1,5 @@
-body {
-  background-color: #ccc;
-}
-
-b,
-strong {
-  font-weight: bold;
-}
-
-i,
-pre {
-  font-style: italic;
-}
-
-h1 {
-  -webkit-transition: 0.5s all ease;
-  transition: 0.5s all ease;
-}
-
-body {
-  font-family: Arial;
+.main {
+  padding: 30px;
 }
 
 /*# sourceMappingURL=application.css.map */
