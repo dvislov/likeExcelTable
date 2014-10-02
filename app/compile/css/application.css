@@ -2,4 +2,23 @@
   padding: 30px;
 }
 
+table.table {
+  border: 1px solid #ccc;
+}
+
+table.table th {
+  background-color: #000066;
+  color: #fff;
+  padding: 10px;
+}
+
+table.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#excel_table {
+  height: 500px;
+}
+
 /*# sourceMappingURL=application.css.map */

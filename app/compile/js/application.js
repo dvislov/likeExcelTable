@@ -1,4 +1,6 @@
 (function() {
-  console.log('This is coffee script success test!');
+  $(document).ready(function() {
+    return $("#excel_table").jScrollPane();
+  });
 
 }).call(this);

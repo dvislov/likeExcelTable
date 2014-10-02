@@ -1,1 +1,2 @@
-console.log 'This is coffee script success test!'
+$(document).ready ->
+  $("#excel_table").jScrollPane()
