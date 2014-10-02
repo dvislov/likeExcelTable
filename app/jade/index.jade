@@ -6,3 +6,85 @@ html
     .main
 
       h1 Big table example
+
+      #excel_table
+        table.table
+          thead
+            tr
+              th ФИО
+              th Проект 1
+              th Проект 2
+              th Проект 3
+              th Очень длинный проект 4
+              th Непереносимыйадскидлинныйзаголовок
+              th Проект 6
+              th Проект 7
+              th Проект 8 невыносимо много слов в названии проекта
+              th Проект 9
+              th Проект 10
+              th Проект 11
+              th Проект 12
+              th Тринадцатый
+          tbody
+            - for (var x = 0; x < 3; x++)
+              tr
+                td Иванов Иван Иванович
+                td
+                  input(type="text")
+                td
+                  input(type="radio")
+                td
+                  p Колебательный математический маятник: основные моменты
+                td —
+                td
+                  p Гироскопический прибор интегрирует лазерный объект. Отсюда следует, что погрешность изготовления горизонтально не зависит от скорости вращения внутреннего кольца подвеса, что не кажется странным, если вспомнить о том, что мы не исключили из рассмотрения апериодический альтиметр.
+                td
+                  input(type="checkbox")
+                td
+                  select
+                    option Kawabanga!
+                td —
+                td —
+                td —
+                td —
+                td —
+                td —
+              tr
+                td Петров Пётр Петрович
+                td —
+                td NYC
+                td —
+                td
+                  button Pressssss me!
+                td —
+                td Трололо
+                td —
+                td —
+                td
+                  input(type="date")
+                td
+                  input(type="color")
+                td —
+                td —
+                td
+                  p Исходя из уравнения Эйлера, степень свободы нестабильна.
+              tr
+                td Бабамурадов Мердан Эгембердыевич
+                td —
+                td NYC
+                td
+                  input(type="email")
+                td
+                  button Pressssss me!
+                td —
+                td Трололо
+                td —
+                td —
+                td
+                  input(type="date")
+                td
+                  input(type="color")
+                td —
+                td —
+                td
+                  p Исходя из уравнения Эйлера, степень свободы нестабильна.
